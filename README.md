@@ -493,11 +493,11 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 - Operator의 종류와 사용 방법을 설명해주세요.
 - Combine과 RxSwift의 차이점은 무엇인가요?
 
-17. Swift의 제네릭(Generic)에 대해 설명해주세요.
+17. Swift의 고급 제네릭 기능과 타입 소거(Type Erasure)에 대해 설명해주세요.
 
-- 제네릭을 사용하는 이유는 무엇인가요?
-- 제네릭 타입 파라미터(Generic Type Parameter)와 제네릭 타입 제약(Generic Type Constraint)은 무엇인가요?
-- 제네릭을 사용할 때 주의할 점은 무엇인가요?
+- Associated Type과 제네릭의 차이점은 무엇이며, 각각 언제 사용하나요?
+- 타입 소거(Type Erasure)가 필요한 이유와 구현 방법을 설명해주세요.
+- where 절을 사용한 제네릭 제약 조건의 활용 예시를 들어주세요.
 
 18. iOS 앱에서 로컬 푸시 알림(Local Push Notification)을 구현하는 방법은 무엇인가요?
 
