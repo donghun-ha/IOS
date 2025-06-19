@@ -262,7 +262,7 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 *   메모리 사용 측면에서 연속 메모리 할당(Array)과 노드 기반 할당(Linked List)은 어떤 차이가 있나요?
 *   Swift의 `Array`는 값 타입인데, 이것이 성능과 메모리 사용에 어떤 영향을 미치나요? (Copy-on-Write 설명 포함)
 
-27. **직렬화(Serialization)와 역직렬화(Deserialization)는 무인가요?**
+27. **직렬화(Serialization)와 역직렬화(Deserialization)는 무엇인가요?**
 
 *   JSON 형식이란 무엇이며, 왜 API 통신에서 자주 사용되나요?
 *   JSON외에 통신에서 자주 사용 되는 형식은 어떤것이 있나요?
