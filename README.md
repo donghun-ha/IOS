@@ -47,10 +47,6 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 
 ## 레벨 0
 
-Okay, here is the list reformatted according to your example, including the additional CS topics and the Swift-specific questions you provided.
-
----
-
 **레벨 0: 학생 / 신입 iOS 개발자 예상 질문 리스트**
 
 1. **컴퓨터 시스템에서 CPU, RAM, 저장 장치의 역할과 이들이 어떻게 상호 작용하는지 설명해주세요.**
