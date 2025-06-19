@@ -425,6 +425,12 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 - 순환 참조(Retain Cycle)가 발생하는 경우와 해결 방법을 설명해주세요.
 - 강한 참조, 약한 참조, 미소유 참조의 차이점을 설명해주세요.
 
+5. iOS 앱에서 뷰 컨트롤러(ViewController) 생명주기와 관련된 고급 주제들에 대해 설명해주세요.
+
+- viewDidLoad와 viewWillAppear의 차이점과 각각 언제 호출되는지 설명해주세요.
+- Child View Controller를 사용하는 이유와 구현 방법은 무엇인가요?
+- 화면 전환 시 메모리 관리와 성능 최적화를 위한 모범 사례는 무엇인가요?
+
 6. Swift의 문자열(String) 다루기와 관련된 주요 기능은 무엇이 있나요?
 
 - 서브스트링(Substring)과 문자열의 차이점은 무엇인가요?
@@ -511,51 +517,51 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 - UIKit 뷰 컨트롤러에서 SwiftUI 뷰를 호스팅하는 방법은 무엇인가요?
 - SwiftUI와 UIKit을 함께 사용할 때 주의할 점은 무엇인가요?
 
-19. Swift에서 키 경로(Key Path)란 무엇이며, 어떻게 사용하나요?
+20. Swift에서 키 경로(Key Path)란 무엇이며, 어떻게 사용하나요?
 
 - 키 경로 표현식(Key Path Expression)의 문법과 사용 예시를 설명해주세요.
 - 런타임에 키 경로를 사용하여 속성에 접근하는 방법은 무엇인가요?
 - 키 경로와 KVO(Key-Value Observing)의 관계를 설명해주세요.
 
-20. iOS 앱에서 Deep Link와 Universal Link의 차이점은 무엇인가요?
+21. iOS 앱에서 Deep Link와 Universal Link의 차이점은 무엇인가요?
 
 - Deep Link를 구현하는 방법과 주의 사항을 설명해주세요.
 - Universal Link의 동작 원리와 설정 방법은 무엇인가요?
 - Deep Link와 Universal Link를 함께 사용하는 경우의 장점은 무엇인가요?
 
-21. Swift의 Result 타입과 에러 처리 방식에 대해 설명해주세요.
+22. Swift의 Result 타입과 에러 처리 방식에 대해 설명해주세요.
 
 - Result 타입을 사용하는 이유와 장점은 무엇인가요?
 - 에러 처리 시 do-catch 문과 Result 타입을 함께 사용하는 방법을 설명해주세요.
 
-22. iOS 앱에서 Thread Sanitizer를 사용하여 동시성 문제를 탐지하고 해결하는 방법을 설명해주세요.
+23. iOS 앱에서 Thread Sanitizer를 사용하여 동시성 문제를 탐지하고 해결하는 방법을 설명해주세요.
 
-23. Swift의 Sequence와 Collection 프로토콜에 대해 설명해주세요.
+24. Swift의 Sequence와 Collection 프로토콜에 대해 설명해주세요.
 
 - Sequence와 Collection 프로토콜의 차이점과 요구 사항을 설명해주세요.
 - 사용자 정의 Sequence와 Collection을 구현하는 방법과 사용 예시를 들어주세요.
 
-24. UIKit의 AdaptiveLayout과 Size Classes에 대해 설명해주세요.
+25. UIKit의 AdaptiveLayout과 Size Classes에 대해 설명해주세요.
 
 - AdaptiveLayout의 개념과 사용 목적을 설명해주세요.
 - Size Classes를 활용하여 다양한 기기에 적응적인 UI를 구현하는 방법을 예시와 함께 설명해주세요.
 
-25. Swift의 커스텀 연산자(Custom Operator)에 대해 설명해주세요.
+26. Swift의 커스텀 연산자(Custom Operator)에 대해 설명해주세요.
 
 - 커스텀 연산자를 정의하는 방법과 주의 사항은 무엇인가요?
 - 커스텀 연산자를 활용한 코드 가독성 향상 방안을 제시해주세요.
 
-26. Swift의 생성자(Initializer)와 관련된 고급 개념에 대해 설명해주세요.
+27. Swift의 생성자(Initializer)와 관련된 고급 개념에 대해 설명해주세요.
 
 - 지정 생성자(Designated Initializer)와 편의 생성자(Convenience Initializer)의 차이점은 무엇인가요?
 - 필수 생성자(Required Initializer)와 실패 가능한 생성자(Failable Initializer)는 어떤 경우에 사용하나요?
 
-27. Combine 프레임워크에서 Scheduler의 역할과 종류에 대해 설명해주세요.
+28. Combine 프레임워크에서 Scheduler의 역할과 종류에 대해 설명해주세요.
 
 - Scheduler를 사용하여 작업을 특정 큐(DispatchQueue)에서 실행하는 방법을 설명해주세요.
 - 백그라운드에서 작업을 수행하고 메인 큐에서 UI를 업데이트하는 패턴을 Combine으로 구현하는 방법을 설명해주세요.
 
-28. UIKit의 `UIView`는 클래스 기반으로 구현되어 있지만, SwiftUI에서 `View` 프로토콜을 준수하는 타입은 보통 구조체를 사용합니다. 그 이유는 무엇일까요?
+29. UIKit의 `UIView`는 클래스 기반으로 구현되어 있지만, SwiftUI에서 `View` 프로토콜을 준수하는 타입은 보통 구조체를 사용합니다. 그 이유는 무엇일까요?
 
 - `View` 프로토콜을 준수하는 구조체의 주요 특징은 무엇이며, 이는 어떻게 SwiftUI의 성능 및 사용성에 영향을 미치나요?
 - SwiftUI의 `View`가 구조체임에도 불구하고, 상태(state)를 어떻게 관리하고 업데이트하나요?
