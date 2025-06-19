@@ -395,6 +395,16 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
     - 글로벌 큐(Global Queue)와 메인 큐(Main Queue)는 어떻게 다르나요?
     - DispatchWorkItem을 사용하는 방법은 무엇인가요?
 
+27. **SwiftUI에서 @State 변수를 변경했는데 화면이 업데이트되지 않는다면 어떤 문제를 의심해야 하나요?**
+    - @State, @Binding, @ObservedObject의 차이점과 각각 언제 사용해야 하나요?
+    - View의 body가 다시 그려지는 시점은 언제이며, 성능을 위해 주의할 점은 무엇인가요?
+    - SwiftUI의 데이터 흐름과 UIKit의 MVC 패턴의 차이점은 무엇인가요?
+
+28. **여러 화면에서 동일한 알림 기능을 사용해야 할 때, 싱글톤 패턴 대신 어떤 디자인 패턴을 고려해볼 수 있나요?**
+    - Observer 패턴과 NotificationCenter의 관계는 무엇인가요?
+    - Dependency Injection을 사용하면 싱글톤 대비 어떤 이점이 있나요?
+    - Protocol을 활용한 의존성 역전은 테스트 가능성을 어떻게 향상시키나요?
+
 ## 레벨 2
 
 1. 테이블뷰를 빠르게 스크롤할 때 이미지가 잘못된 셀에 표시되는 문제를 어떻게 해결하나요?
@@ -676,6 +686,18 @@ Apple 공식 개발 문서중 읽어 보면 좋은 문서들은 다음과 같습
 - 접근성 테스트 및 심사 기준, 모범 사례 등을 예시와 함께 설명해주세요.
 
 20. iOS 앱에서 Objective-C 브리징(Bridging)을 하는 방법과 주의 사항을 설명해주세요.
+
+21. **iOS 17의 Observable 매크로를 사용하면 기존 ObservableObject와 비교해 어떤 이점이 있나요?**
+
+- @Observable과 @ObservableObject의 성능 차이는 무엇인가요?
+- Observable 매크로 사용 시 뷰 업데이트 최적화는 어떻게 이루어지나요?
+- 기존 Combine 기반 코드를 Observable로 마이그레이션할 때 고려사항은 무엇인가요?
+
+22. **SwiftData를 Core Data 대신 사용하기로 결정했다면, 어떤 기준으로 판단했을까요?**
+
+- SwiftData의 모델 정의 방식과 Core Data의 차이점은 무엇인가요?
+- 마이그레이션 전략과 데이터 동기화 측면에서 각각의 장단점은 무엇인가요?
+- CloudKit 통합 시 SwiftData와 Core Data의 접근 방식 차이는 무엇인가요?
 
 ## 레벨 4
 
