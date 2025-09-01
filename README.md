@@ -1,4 +1,4 @@
-# Jercy's Interview Questions for iOS Developers
+# Interview Questions for iOS Developers
 
 > 이전 질문 리스트는 [여기](https://github.com/JeaSungLEE/iOSInterviewquestions/blob/master/oldREADME.md)에서 확인할 수 있습니다.
 
